@@ -22,5 +22,13 @@
   "devDependencies": {
     "nodemon": "^2.0.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mcastrox/buhos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mcastrox/buhos/issues"
+  },
+  "homepage": "https://github.com/Mcastrox/buhos#readme",
   "description": ""
 }
