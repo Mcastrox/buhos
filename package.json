@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "start" : "node src/index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "heroku"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -30,5 +33,8 @@
     "url": "https://github.com/Mcastrox/buhos/issues"
   },
   "homepage": "https://github.com/Mcastrox/buhos#readme",
-  "description": ""
+  "description": "",
+  "engines": {
+    "node": "12.13.0"
+  }
 }

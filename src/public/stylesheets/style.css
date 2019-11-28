@@ -23,7 +23,7 @@ margin-left: 100px;
 margin-right: 2px;
 }
 .logo{
-	width: 200px;
+    width: 120px;
     margin: 0.1em;
     margin-right: 3px;
     margin-left: 3px;
@@ -400,18 +400,3 @@ body {
 .social-container {
 	margin: 20px 0;
 }
-
-
-
-/*VERSION PARA MOVILES*/
-
-/*iPhone 6/7/8 375x667
-iPhone Plus 414x736
-iPhone 375x812
-S9 360x740
-iPad 786x1024
-
-para otros desktop
-
-*/
-
