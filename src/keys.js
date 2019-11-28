@@ -1,5 +1,5 @@
 module.exports={
     mongodb:{
-        URI: 'mongodb://localhost:27017/buhos1'
+        URI: "mongodb://nguardadov:guardado6051993@ds349628.mlab.com:49628/buhos1"
     }
 }
