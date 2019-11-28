@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "start" : "node src/index.js"
+    "start": "node src/index.js"
   },
   "keywords": [
     "heroku"
@@ -33,8 +33,8 @@
     "url": "https://github.com/Mcastrox/buhos/issues"
   },
   "homepage": "https://github.com/Mcastrox/buhos#readme",
-  "description": "",
   "engines": {
     "node": "12.13.0"
-  }
+  },
+  "description": ""
 }
