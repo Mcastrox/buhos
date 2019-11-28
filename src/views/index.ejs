@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="stylesheet" href="stylesheets/reservaciones.css">
-
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>Buhos pizza</title>
@@ -19,21 +18,24 @@
             <a class="logo-link">
                 <img src="imagenes/Logo2.png" alt=" Buhos logos " class="logo">
             </a>
-            <nav class="blog">
-                <ul class="primary-nav-item">
-                    <li class="item-page"><a href="#">Promociones</a></li>
-                    <li class="item-page"><a href="#">Menu</a></li>
-                    <li class="item-page"><a href="#">Conciertos</a></li>
-                    <li class="item-page"><a href="#">Reservacion</a></li>
-                    <li class="item-page"><a href="#"><button class="Login-btn"><span class="span-login-img"
-                                    style="display: flex;margin-right: 4px;"><img src="imagenes/usuario.png"
-                                        alt="Iniciar Sesion" width="28px" height="28px" ;><span
-                                        style="float: right; margin-left: 4px;">Iniciar
-                                        Sesión</span></span></button></a></li>
-                    <li><button class="Login-btn-car"><img src="imagenes/carrito-de-compras.png" style="color:#ed1a2d;"
-                                width="30px" height="30px" alt="carro"></button> </li>
-                </ul>
-            </nav>
+
+            <nav class="mobile-menu">
+                <label for="show-menu" class="show-menu"><span>Menu</span><div class="lines"></div></label>
+                    <input type="checkbox" id="show-menu">
+                    <ul id="menu">
+                            <li class="item-page"><a href="#">Promociones</a></li>
+                            <li class="item-page"><a href="#">Menu</a></li>
+                            <li class="item-page"><a href="#">Conciertos</a></li>
+                            <li class="item-page"><a href="#">Reservacion</a></li>
+                            <li class="item-page"><a href="#"><button class="Login-btn"><span class="span-login-img"
+                                            style="display: flex;margin-right: 4px;"><img src="imagenes/usuario.png"
+                                                alt="Iniciar Sesion" width="28px" height="28px" ;><span
+                                                style="float: right; margin-left: 4px;">Iniciar
+                                                Sesión</span></span></button></a></li>
+                            <li><button class="Login-btn-car"><img src="imagenes/carrito-de-compras.png" style="color:#ed1a2d;"
+                                        width="30px" height="30px" alt="carro"></button> </li>
+                        </ul>
+                </nav>
         </header>
     </div>
     <br>
@@ -526,20 +528,10 @@
 
 
                 <div class="form-box" data-errormsg="">
-                    <label for="input-people">Numero de personas</label>
-                    <select id="input-people" tabindex="2">
-                        <option value="0">1</option>
-                        <option value="1">2</option>
-                        <option value="2">3</option>
-                        <option value="3">4</option>
-                        <option value="4">5</option>
-                        <option value="5">6</option>
-                        <option value="6">7</option>
-                        <option value="7">8</option>
-                        <option value="8">9</option>
-                        <option value="9">10</option>
-                    </select>
-                </div>
+                        <label for="input-people">Numero de personas</label>
+                        <input id="input-people" tabindex="2"
+                         type="number" name="quantity" value="1" max="20" min="1" step="1">
+                         
                 <div class="form-group">
                     <div class='input-group date' id='datepicker'>
                         <label for="input-date">Fecha de reserva</label>
